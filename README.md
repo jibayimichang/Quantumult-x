@@ -1,1 +1,1 @@
-# Quantumult-x
+搬运工，仅自用。

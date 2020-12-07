@@ -1,0 +1,5 @@
+# ios系统屏蔽更新
+DOMAIN,mesu.apple.com,Block iOS Update
+DOMAIN,gdmf.apple.com,Block iOS Update
+DOMAIN,updates-http.cdn-apple.com,Block iOS Update
+DOMAIN,xp.apple.com,Block iOS Update
