@@ -22,7 +22,7 @@ const textStyle = env.textStyle
 const locale = "zh-cn"
 
 // 彩云天气的apiKey，自己去免费申请：https://caiyunapp.com
-const apiKey = "Hk94qxnZuiYAAOYZ"
+const apiKey = ""
 
 // 默认的定位信息，定位失败的时候默认读取
 // https://open.caiyunapp.com/File:Adcode-release-2020-06-10.xlsx.zip
