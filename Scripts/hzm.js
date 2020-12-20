@@ -3,11 +3,13 @@ const urlfarm = `http://api.turinglabs.net/api/v1/jd/farm/create/5eb0d4bdb0c542c
 const urlpet = `http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDAxNzcwMDAwMDAwMzY3ODI5NDc=/`;
 const urlddfac = `http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2f-iXtDxPgpxOg6kus/`;
 const urlfac = `http://api.turinglabs.net/api/v1/jd/jxfactory/create/JL2xFS7HrRm5eosoYMe_HQ==/`;
+const urljdzz = `https://code.chiang.fun/api/v1/jd/jdzz/create/AUWE5mKvEyjxZCmD43H8YxA/`;
 const urlbean2 = `http://api.turinglabs.net/api/v1/jd/bean/create/olmijoxgmjutyqsyyxqx3jvirtx26ood5ewc65a/`;
 const urlfarm2 = `http://api.turinglabs.net/api/v1/jd/farm/create/01e56baf14d0490098d040a970af27eb/`;
 const urlpet2 = `http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODc2NTEzNTAwMDAwMDAyMDMzOTI1NQ==/`;
 const urlddfac2 = `http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2as231NwYGybuupWI0/`;
 const urlfac2 = `http://api.turinglabs.net/api/v1/jd/jxfactory/create/qAWiBWugK3zx3B5GxBBzJQ==/`;
+const urljdzz2 = `https://code.chiang.fun/api/v1/jd/jdzz/create/AUWE5mfmWzDJcDmCrjHUckA/`;
 
 const method = `GET`;
 const headers = {
@@ -22,7 +24,7 @@ const headers = {
 const body = ``;
 
 var msg = "";
-var name = {"bean":"种豆得豆：","farm":"京东农场：","pet":"京东宠物：","jxfactory":"京喜工厂：","ddfactory":"东东工厂："}
+var name = {"bean":"种豆得豆：","farm":"京东农场：","pet":"京东宠物：","jxfactory":"京喜工厂：","ddfactory":"东东工厂：","jdzz":"京东赚赚："}
 
 function Task(url) {
     const myRequest = {
@@ -47,11 +49,13 @@ function DoIt(){
     let msg3= Task(urlfac)
     let msg4= Task(urlpet)
     let msg5= Task(urlddfac)
-    let msg6= Task(urlbean2)
-    let msg7= Task(urlfarm2)
-    let msg8= Task(urlfac2)
-    let msg9= Task(urlpet2)
-    let msg10= Task(urlddfac2)
+    let msg6= Task(urljdzz)
+    let msg7= Task(urlbean2)
+    let msg8= Task(urlfarm2)
+    let msg9= Task(urlfac2)
+    let msg10= Task(urlpet2)
+    let msg11= Task(urlddfac2)
+    let msg12= Task(urljdzz2)
     setTimeout(function(){
         $notify("互助码提交",``,msg)
         $done()
