@@ -19,7 +19,7 @@ const headers = {
 const body = ``;
 
 var msg = "";
-var name = {"bean":"种豆：","farm":"农场：","pet":"萌宠：","jxfactory":"京喜：","ddfactory":"东东：","jdzz":"赚赚：","crazy":"疯狗："}
+var name = {"bean":"种豆：","farm":"农场：","pet":"萌宠：","jxfactory":"京喜：","ddfactory":"东东：","jdzz":"赚赚：","crazy":"joy："}
 
 function Task(url) {
     const myRequest = {
