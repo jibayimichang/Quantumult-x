@@ -4,7 +4,7 @@ const urlpet = `http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDAxNzcwMDAwM
 const urlddfac = `http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2f-iXtDxPgpxOg6kus/`;
 const urlfac = `http://api.turinglabs.net/api/v1/jd/jxfactory/create/JL2xFS7HrRm5eosoYMe_HQ==/`;
 const urljdzz = `https://code.chiang.fun/api/v1/jd/jdzz/create/AUWE5mKvEyjxZCmD43H8YxA/`;
-const urlcrazy = `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/1gmxBLcV2ng2aXdYKrFVDqt9zd5YaBeE/`;
+const urljdcrazyjoy = `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/1gmxBLcV2ng2aXdYKrFVDqt9zd5YaBeE/`;
 const urljdcash = `https://code.chiang.fun/api/v1/jd/jdcash/create/eU9Ya-rmYfV3827VynBBhw/`;
 
 
@@ -21,7 +21,7 @@ const headers = {
 const body = ``;
 
 var msg = "";
-var name = {"bean":"种豆：","farm":"农场：","pet":"萌宠：","jxfactory":"京喜：","ddfactory":"东东：","jdzz":"赚赚：","crazy":"joy：","jdcash":"领现金："}
+var name = {"bean":"种豆：","farm":"农场：","pet":"萌宠：","jxfactory":"京喜：","ddfactory":"东东：","jdzz":"赚赚：","jdcrazyjoy":"疯狗：","jdcash":"领现金："}
 
 function Task(url) {
     const myRequest = {
@@ -47,7 +47,7 @@ function DoIt(){
     let msg4= Task(urlpet)
     let msg5= Task(urlddfac)
     let msg6= Task(urljdzz)
-    let msg7= Task(urlcrazy)
+    let msg7= Task(urljdcrazyjoy)
     let msg8= Task(urljdcash)
     setTimeout(function(){
         $notify("互助码提交",``,msg)
