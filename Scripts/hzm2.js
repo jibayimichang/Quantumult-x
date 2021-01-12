@@ -52,7 +52,7 @@ function DoIt(){
     setTimeout(function(){
         $notify("互助码提交",``,msg)
         $done()
-    },10000)
+    },5000)
     
 }
 
